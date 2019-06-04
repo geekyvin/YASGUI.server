@@ -2,7 +2,7 @@ var path = require('path')
 module.exports = {
 	"server": {
 		"yasguiAssets": path.resolve(__dirname, '..', 'node_modules/yasgui/dist'),
-		"port": 4545,
+		"port": 8080,
 		"shortUrlBasename": "http://yasgui.org/short/",
 		"db" : {
 			"engine": "tingodb",

@@ -12,6 +12,6 @@ RUN npm install --global --production
 #Bundle app source
 COPY . .
 
-EXPOSE 4545
+EXPOSE 8080
 
 CMD ["npm", "run", "start"]
